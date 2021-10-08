@@ -7,11 +7,8 @@ using namespace std;
 int main() {
     int r, s, a, b, ost;
     bool result;
-    cout << "Enter variable r: \n" ; cin >> r;
-    cout << "Enter variable s: \n"; cin >> s;
-    cout << "Enter variable a: \n"; cin >> a;
-    cout << "Enter variable b: \n"; cin >> b;
-
+    cout << "Enter variable r, s : " << endl; cin >> r >> s;
+    cout << "Enter variable a, b : " << endl; cin >> a >> b;
     if (a >= 0 && b > 0)
     {
         ost = a % b;
@@ -23,7 +20,7 @@ int main() {
          result = false;
     }
     else
-        result = false;
+         result = false;
     result ? cout << "True" : cout << "False";
     return 0;
 }
