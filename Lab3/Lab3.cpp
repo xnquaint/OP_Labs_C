@@ -10,7 +10,7 @@ int main() {
     while (diff >= e) {
         addition = x / n;
         CurrentComponent = PreviousComponent * addition;
-        functE += СurrentComponent;
+        functE += CurrentComponent;
         diff = (abs(CurrentComponent - PreviousComponent));
         PreviousComponent = CurrentComponent;
         n++;
