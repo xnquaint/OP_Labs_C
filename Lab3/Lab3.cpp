@@ -15,6 +15,6 @@ int main() {
         PreviousComponent = CurrentComponent;
         n++;
     }
-    cout << functE;
+    cout << "The value of function is: " << functE;
     return 0;
 }
