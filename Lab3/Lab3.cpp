@@ -8,7 +8,7 @@ int main() {
     int n = 1;
 
     cout << "Enter x: "; cin >> x;
-    while (PreviousComponent >= eps) {
+    while ((abs(PreviousComponent)) >= eps {
         addition = x / n;
         CurrentComponent = PreviousComponent * addition;
         functExp += CurrentComponent;
