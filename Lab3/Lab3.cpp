@@ -3,18 +3,18 @@
 using namespace  std;
 
 int main() {
-    double x,  CurrentComponent, addition;
-    double eps = 0.00001, functExp = 1.0, PreviousComponent = 1.0; // еps - точність, functExp - значення функції е
+    double x,  current_component, addition;
+    double eps = 0.00001, funct_exp = 1.0, previous_component = 1.0; // еps - точність, funct_exp - значення функції е
     int n = 1;
 
     cout << "Enter x: "; cin >> x;
-    while ((abs(PreviousComponent)) >= eps {
+    while ((abs(previous_component)) >= eps) {
         addition = x / n;
-        CurrentComponent = PreviousComponent * addition;
-        functExp += CurrentComponent;
-        PreviousComponent = CurrentComponent;
+        current_component = previous_component * addition;
+        funct_exp += current_component;
+        previous_component = current_component;
         n++;
     }
-    cout << "The value of function is: " << fixed << setprecision(5) << functExp << endl;
+    cout << "The value of function is: " << fixed << setprecision(5) << funct_exp << endl;
     return 0;
 }
