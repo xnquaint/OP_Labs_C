@@ -26,5 +26,5 @@ double theValOfT(double a, double b, double c){
     return result;
 }
 void outputOfT(double rez){
-    cout << "The of T is: " << rez;
+    cout << "The value of T is: " << rez;
 }
