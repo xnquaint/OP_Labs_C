@@ -37,8 +37,7 @@ int main(){
 
 void genArray(double array[], int length){
     for (int i=0; i < length;i++){
-        double random = rand()%199-99;
-        array[i] = random / 10;
+        array[i] = (rand()%201-100) / 10;
     }
 }
 void outArray(double array[],int length){

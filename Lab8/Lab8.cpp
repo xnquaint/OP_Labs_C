@@ -57,8 +57,7 @@ void fillMatrix(double* matrix[], int s) {
     double random;
     for (int i = 0; i < s; i++) {
         for (int j = 0; j < s; j++) {
-            random = rand()%201-100;
-            matrix[i][j] = random / 10;
+            matrix[i][j] = (rand()%201-100) / 10;
         }
     }
 }
