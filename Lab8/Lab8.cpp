@@ -54,10 +54,9 @@ double** createMatrix(int s){
     return matrix;
 }
 void fillMatrix(double* matrix[], int s) {
-    double random;
     for (int i = 0; i < s; i++) {
         for (int j = 0; j < s; j++) {
-            matrix[i][j] = (rand()%201-100) / 10;
+            matrix[i][j] = (rand()%201-100) / 10.0;
         }
     }
 }
